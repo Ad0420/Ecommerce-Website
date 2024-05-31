@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="The admin page provides Admin functionality such as removal/update of user information" />
+
+    <title>Login and Signup Form</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        .admin_title {
+            margin: 20px;
+            text-align: center;
+            font-size: 30px;
+        }
+
+        .admin-buttons .btn {
+            margin: 15px;
+        }
+
+        .footer p {
+            margin: 0;
+        }
+        .footer {
+            background-color: #000;
+            color: #fff;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <a class="navbar-brand" href="#">Navbar</a>
+        
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item" style="margin-right: 15px;">
+                    <a class="nav-link btn btn-danger" href="login.php" style="color:white;">Logout</a>
+                </li>
+            </ul>
+        </div>
+
+    </nav>
+
+    <div class="container">
+        <h2 class="admin_title">Admin CRUD Feature</h2>
+        <div class="admin-buttons text-center">
+            <a href="delete.php" class="btn btn-danger">Delete User</a>
+            <a href="update.php" class="btn btn-success">Update User Password</a>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <p class="text-center text-white">Copyright 2024 Advik Unni. All Rights Reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

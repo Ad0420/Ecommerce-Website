@@ -1,0 +1,24 @@
+.navbar {
+    background-color: #f8f9fa;
+}
+
+.footer {
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+}
+
+.footer p {
+    margin: 0;
+}
+
+.search-form {
+    width: 50%;
+    text-align: center;
+}
+
+.search-input {
+    width: 70%;
+    padding: 10px;
+    border-radius: 5px;
+}

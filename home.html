@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="The home page is the page that a logged in user enters. " />
+    <title>ECOMMERCE</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="external.css">
+
+    <style>
+        .background-section {
+            background-image: url('img/shop2.png');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            height: 700px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .search-button {
+            padding: 10px 20px;
+            border-radius: 5px;
+        }
+
+        .user-quotes-section {
+            background-color: #f8f9fa;
+            padding: 50px 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            text-align: center;
+        }
+
+        .quote {
+            font-size: 24px;
+            margin-bottom: 20px;
+            padding: 20px;
+            border-radius: 10px;
+            background-color: #fff;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            max-width: 80%;
+            transition: transform 0.3s ease;
+        }
+
+        .quote:hover {
+            transform: scale(1.5);
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="home.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="products.php">Products <span class="sr-only">(current)</span></a>
+                </li>
+            </ul>
+
+            <ul class="navbar-nav ml-auto"> 
+                <li class="nav-item">
+                    <a class="nav-link btn btn-danger" href="login.php" style="color:white;">Logout</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="background-section">
+        <div class="search-form">
+        </div>
+    </div>
+
+    <div class="user-quotes-section">
+        <div class="quote" id="quote1">"Love the Website"</div>
+        <div class="quote" id="quote2">"Great experience!"</div>
+        <div class="quote" id="quote3">"Amazing products!"</div>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <p class="text-center text-white"> Copyright 2024 Advik Unni. All Rights Reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
